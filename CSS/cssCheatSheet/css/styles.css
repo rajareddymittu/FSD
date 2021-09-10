@@ -1,0 +1,177 @@
+/*
+
+reset
+*{
+	margin: 0;
+	padding: 0;
+}*/
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: red;
+}
+a:active{
+	color: green;
+}
+a:visited{
+	/*color: violet;*/
+}
+.button: hover{
+color: red;
+}
+body{
+	background-color: #f4f4f4;
+	color: #555555;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	/*above ==below*/
+	font: normal 12px Arial,helvetica,sans-serif;
+	line-height: 1.6em;
+	margin: 0;
+}
+.container{
+	width: 80%;
+	margin: auto;
+
+}
+.button {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 1.5em;
+	border=none;
+	
+}
+.clr{
+	clear: both;
+}
+.box-1{
+	background-color: #333;
+	color: #fff;
+	/*border-right: 1em red solid;*/
+	border: 1em red solid ;
+	/*2em green 3em red solid 4em green ;*/
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	margin: 20px;
+}
+.box-1 h1{
+	font-family: Tahoma;
+	font-weight: 800;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	word-spacing:5px;
+}
+.box-2{
+	border: 3px dotted #ccc;
+	padding: 20px 10px;
+	margin: 10px
+}
+.categories{
+	border: 1px #ccc solid;
+	padding: 10px;
+	border-radius: 20px;
+
+}
+.categories h2{
+	text-align: center;
+}
+.categories ul{
+	padding: 0 20px;
+	text-align: left;
+
+	list-style: square;
+	list-style: none;
+}
+.categories li{
+	padding: 4px 0 4px 0;
+	border-bottom: 1px dotted #333;
+	list-style-image:url('../images/check.png'); 
+} 
+
+.my-form{
+	padding-bottom: 15px;
+}
+.my-form form-group{
+	padding-bottom: 15px;
+
+}
+.my-form label{
+	display: block;
+}
+.my-form input{
+	padding: 8px;
+	width: 100%;
+}/*
+.my-form input[type="submit"]{
+	background-color: #333;
+	color: #fff;
+	padding: 10px 1.5em;
+	border=none;
+
+}*/
+.block{
+	float: left;
+	width: 33.3%;
+	border: 1px #ccc solid;
+	box-sizing: border-box;
+}
+
+#main-block{
+	float: left;
+	width: 70%;
+	
+}
+#sidebar{
+	float: left;
+	width: 30%;
+	background-color: #333;
+	color: #fff;
+	box-sizing: border-box;
+}
+.p-box{
+	width: 300px;
+	height: 300px;
+	border: 1px solid #000;
+	/*box-sizing: border-box;*/
+	margin-top: 30px;
+	position: relative;
+	background-image:url('../images/bg.jpg');
+	background-repeat: no-repeat;
+	background-position:100px 200px ;
+	background-position: center center;
+}
+.p-box h1{
+	position: absolute;
+	top:40px;
+	left: 100px;
+}
+.p-box h2{
+	position: absolute;
+	bottom: 100px;
+	right: 100px;
+}
+.fix-me{
+	position: fixed;
+	top: 400px;
+}
+.myList li:first-child{
+	background: red;
+}
+.myList li:last-child{
+	background: blue;
+}
+.myList li:nth-child(5){
+	background: yellow;
+}
+
+.myList li:nth-child(even){
+	background: grey;
+	color: white;
+}
