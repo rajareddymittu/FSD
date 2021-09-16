@@ -1,0 +1,46 @@
+.nameHead{
+    color:rgb(12, 12, 12);
+    float:left;
+    margin-left:40px;
+    margin-top:10px ;
+    margin-bottom:1em;
+    /* border:10px solid white; */
+    text-size-adjust: auto;
+}
+.imageHead{
+    width: 10%;
+    min-width:100px;
+    float:right;
+    height: auto;
+    margin-right: 4em;
+    margin-top: 20px;
+    max-width: 200px;
+    border-radius: 10px;
+
+
+
+
+
+
+
+
+
+
+    
+}
+.centered{
+    align-self:center;
+    text-align:center;
+}
+.lefted{
+    
+    align-self:left;
+    text-align:left;
+}
+.intro{
+    padding-left:1%;
+    margin-left:2%;
+    border: 1px solid black;
+    float: left;
+    width:80%;
+}
